@@ -1,0 +1,67 @@
+CS50 UNOFFICIAL SURVIVAL NOTES
+A very serious collection of extremely official tips compiled sometime between 2am and 5am during Week 6.
+
+TOPIC: OFFICE HOURS
+• Office hours begin promptly at the scheduled time, except when they don’t.
+• If the queue says “36 people ahead of you,” that’s normal. Bring a snack.
+• The correct answer to “Have you tried rubber duck debugging?” is “Yes,” even if you have not.
+• TFs can sense fear. Approach confidently.
+
+TOPIC: DEBUGGING
+• 90% of bugs are caused by a missing semicolon you stared directly at for 45 minutes.
+• The other 10% are segmentation faults, which means: somewhere, somehow, memory was offended.
+• Printing your variables every three lines is not elegant, but it works.
+• If something stops working after you fix something else, congratulations: you have unlocked “software engineering.”
+
+TOPIC: PYTHON
+• Remember: Python lists begin at index 0. Not 1. Not even if you *really* want them to.
+• If your Flask app throws a Jinja error, check your indentation. If it’s not indentation, check your indentation again.
+• `print()` is still your friend.
+
+TOPIC: FLASK
+• If you see “werkzeug.exceptions.NotFound,” it’s probably your route.
+• If you see “KeyError,” it’s probably your form input.
+• If nothing works, try turning on `debug=True`. If it still doesn’t work, turn everything off and go for a walk.
+
+TOPIC: SQL
+• SELECT * FROM everything WHERE panic = TRUE;
+• If your SQL query doesn’t return what you expect, remember: SQLite is not judging you. Yet.
+• SQL injection is bad. Prepared statements are good. David would want you to know this.
+
+TOPIC: C
+• If you think you understand pointers, you do not.
+• If you think you do not understand pointers, you are correct.
+• `malloc` gives you power. `free` takes responsibility. Use both wisely.
+• BOOM! is the sound of stack overflow. Not the website. The actual stack overflow.
+
+TOPIC: PROBLEM SETS
+• Start early. This note will not change your behavior, but it felt important to write.
+• The number of hours a pset takes is roughly:
+  (percent of assignment completed) * (number of crises experienced) + 4
+• Pset parties are for working, but mostly for not working.
+• If pset7 makes you question your life choices, that’s completely normal.
+
+TOPIC: COMPUTER SCIENCE WISDOM
+• “Why is this happening?” — You, at least once per pset.
+• Computers do exactly what you tell them to do, which is unfortunate.
+• Reading error messages is a superpower. Acquire it slowly.
+• A bug fixed at 3am is not actually fixed. It is lying to you.
+
+TOPIC: HARVARD REALITIES
+• Lamont at 1am is a mood. Widener at 9pm is a philosophical crisis.
+• Cabot Library has the best chairs. This is objectively true.
+• Annenberg breakfast burritos are a force of nature — respect them.
+
+TOPIC: WORKFLOW ADVICE
+• Commit often. Commit messages like “fixed stuff” are legally allowed.
+• Git merge conflicts build character.
+• `pip install` is magic until it isn’t.
+• When in doubt, restart VS Code.
+
+TOPIC: LIFE LESSONS
+• Take breaks. Seriously.
+• Touch grass occasionally. The computer will still be there when you come back.
+• CS50 is hard because you’re learning to think differently — but you’re doing great.
+• And remember: this is only the beginning. You can build *anything* now.
+
+END OF NOTES (FOR LEGAL REASONS, PROBABLY).
